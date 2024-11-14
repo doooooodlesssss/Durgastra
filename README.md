@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# Welcome to Durgastra 🌸
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Durgastra** is your AI-powered mental health therapy tracker designed for women. By combining menstrual cycle and mood tracking, we offer personalized therapy solutions tailored to your unique experiences.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Menstrual Cycle Tracking**: Log your cycle phases and correlate them with your mood.
+- **Mood Journal**: Reflect on daily feelings to identify patterns.
+- **AI Therapy Sessions**: Access guided sessions based on your mood and cycle phase.
+- **Goal Setting**: Set and track personal wellness goals.
+- **Community Support**: Connect with other women for encouragement and shared experiences.
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-    npx expo start
-   ```
+- Node.js installed
+- Expo CLI (install globally with `npm install -g expo-cli`)
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/doooooodlesssss/Durgastra.git
+cd Durgastra
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Install Dependencies
+```bash
+npm install
+```
+### Run the App
+```bash
+expo start
+```
+Scan the QR code with the Expo Go app on your mobile device.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Thank you for exploring Durgasta! We hope this project inspires you promote mental wellness and gender equality. 💖
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
