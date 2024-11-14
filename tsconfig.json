@@ -1,0 +1,36 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    // "jsx": "react-native",
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}
+
+// {
+//   "compilerOptions": {
+//     "target": "es6", // or another target of your choice
+//     "module": "commonjs", // or another module of your choice
+//     "jsx": "react", // or "react-native" if applicable
+//     "strict": true, // optional: enable all strict type-checking options
+//     "esModuleInterop": true, // enables emit interoperability between CommonJS and ES Modules
+//     "skipLibCheck": true // optional: skip type checking of declaration files
+//   },
+//   "include": [
+//     "src/**/*" // adjust this based on your project structure
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
+
