@@ -317,27 +317,27 @@ const CycleCalendar = () => {
   );
 };
 
-// src/components/CycleStats.js
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { useCycles } from '../hooks/useCycles';
+// // src/components/CycleStats.js
+// import React from 'react';
+// import { View, Text, StyleSheet } from 'react-native';
+// import { useCycles } from '../hooks/useCycles';
 
-const CycleStats = () => {
-  const { cycles, predictions, currentCycle } = useCycles();
+// const CycleStats = () => {
+//   const { cycles, predictions, currentCycle } = useCycles();
 
-  return (
-    <View style={styles.container}>
-      <Text>Stats Component</Text>
-    </View>
-  );
-};
+//   return (
+//     <View style={styles.container}>
+//       <Text>Stats Component</Text>
+//     </View>
+//   );
+// };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 20,
-  },
-  // ... more styles
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     padding: 20,
+//   },
+//   // ... more styles
+// });
 
-export default CycleStats;
+// export default CycleStats;
